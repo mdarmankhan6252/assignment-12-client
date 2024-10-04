@@ -1,0 +1,103 @@
+[
+   {
+     "title": "Understanding React Hooks",
+     "author_name": "John Doe",
+     "author_photo": "https://example.com/john-doe.jpg",
+     "author_email": "johndoe@example.com",
+     "date": "2024-09-30",
+     "category":"popular",
+     "banner": "https://jannah.tielabs.com/jannah/wp-content/uploads/sites/8/2016/10/post-image-4.jpg",
+     "description": "This article explores the fundamentals of React Hooks, a feature introduced in React 16.8 that allows developers to use state and other React features without writing a class. Starting with the basic useState hook, we dive into how it simplifies state management in functional components. The article also covers useEffect, which enables side-effects in function components, and demonstrates how to write custom hooks to abstract complex logic. By the end, readers will have a deep understanding of how hooks transform React development."
+   },
+   {
+     "title": "Mastering MongoDB Aggregation",
+     "author_name": "Jane Smith",
+     "author_photo": "https://example.com/jane-smith.jpg",
+     "author_email": "janesmith@example.com",
+     "date": "2024-09-29",
+     "category":"popular",
+     "banner": "https://jannah.tielabs.com/jannah/wp-content/uploads/sites/8/2016/10/post-image-3.jpg",
+     "description": "The MongoDB aggregation framework is a powerful tool for data analysis and transformation. In this in-depth guide, we explore the various stages of an aggregation pipeline, such as $match, $group, $sort, and $lookup. Each stage is explained with practical examples, illustrating how to manipulate and analyze large datasets efficiently. The article also includes advanced techniques for optimizing performance, handling complex queries, and combining data from multiple collections. By mastering aggregation, developers can unlock the full potential of MongoDB for data-driven applications."
+   },
+   {
+     "title": "Building Scalable Node.js Applications",
+     "author_name": "Alice Johnson",
+     "author_photo": "https://example.com/alice-johnson.jpg",
+     "author_email": "alicejohnson@example.com",
+     "date": "2024-09-28",
+     "category":"popular",
+     "banner": "https://jannah.tielabs.com/demo/wp-content/uploads/sites/8/2016/10/slide-27.jpg",
+     "description": "This article focuses on strategies for building scalable Node.js applications that can handle large traffic volumes and data efficiently. We start by discussing the single-threaded nature of Node.js and how to mitigate potential performance bottlenecks through clustering and load balancing. Next, we explore microservices architecture, which breaks applications into smaller, independent services, each running its own process. The guide also includes best practices for database optimization, caching strategies, and asynchronous programming techniques to improve throughput and scalability."
+   },
+   {
+     "title": "A Deep Dive into Firebase Authentication",
+     "author_name": "Michael Lee",
+     "author_photo": "https://example.com/emily-davis.jpg",
+     "author_email": "michaellee@example.com",
+     "date": "2024-09-27",
+     "category":"popular",
+     "banner": "https://jannah.tielabs.com/demo/wp-content/uploads/sites/8/2016/10/image8.jpg",
+     "description": "Firebase Authentication is a key service provided by Google’s Firebase platform that simplifies the authentication process for web and mobile applications. This article offers a detailed exploration of Firebase Authentication, starting with basic email/password setups and moving to social login integration with providers like Google, Facebook, and GitHub. We cover key concepts like tokens, session management, and multi-factor authentication (MFA). Security considerations are also discussed, ensuring that your app’s authentication process is both user-friendly and secure against common threats."
+   },
+   {
+     "title": "Creating Dynamic UIs with Tailwind CSS",
+     "author_name": "Emily Davis",
+     "author_photo": "https://example.com/emily-davis.jpg",
+     "author_email": "emilydavis@example.com",
+     "date": "2024-09-26",
+     "category":"popular",
+     "banner": "https://jannah.tielabs.com/demo/wp-content/uploads/sites/8/2016/05/paul-david-hewson-434928_1280.jpg",
+     "description": "Tailwind CSS is a utility-first CSS framework that enables developers to build custom designs without leaving their HTML. In this comprehensive guide, we cover the core principles of Tailwind, explaining how utility classes work and how to efficiently create complex, responsive layouts. Readers will learn how to use Tailwind’s configuration options to customize their design system, as well as how to leverage the built-in responsive utilities and dark mode features. Advanced topics include optimizing for production with purgeCSS and implementing animations."
+   },
+   {
+     "title": "Effective State Management in React with Redux",
+     "author_name": "Robert Wilson",
+     "author_photo": "https://example.com/robert-wilson.jpg",
+     "author_email": "robertwilson@example.com",
+     "date": "2024-09-25",
+     "category":"popular",
+     "banner": "https://jannah.tielabs.com/demo/wp-content/uploads/sites/8/2016/10/highlight_bg-copy.jpg",
+     "description": "State management is a crucial aspect of large React applications, and Redux has long been the go-to solution. This article explains the core concepts of Redux, including actions, reducers, and the store. We explore how to use Redux Toolkit to simplify the development process and demonstrate how to integrate Redux with React using hooks like useSelector and useDispatch. Additionally, we discuss best practices for structuring your Redux store and handling side-effects using middleware such as Redux Thunk or Redux Saga, ensuring your application remains scalable and maintainable."
+   },
+   {
+     "title": "Building Real-Time Applications with WebSockets",
+     "author_name": "Sarah Thompson",
+     "author_photo": "https://example.com/sarah-thompson.jpg",
+     "author_email": "sarahthompson@example.com",
+     "date": "2024-09-24",
+     "category":"popular",
+     "banner": "https://jannah.tielabs.com/demo/wp-content/uploads/sites/8/2016/10/image1-min.jpg",
+     "description": "WebSockets provide a persistent connection between the client and server, enabling real-time communication. This article takes a deep dive into WebSocket technology, explaining how it works under the hood and how to implement it in modern applications. We cover use cases like chat applications, real-time notifications, and live updates for collaborative tools. Examples are provided using both Node.js and browser-based WebSocket APIs, and we also explore performance optimizations, security considerations, and how to scale WebSocket applications to handle thousands of concurrent connections."
+   },
+   {
+     "title": "Optimizing React Performance with Memoization",
+     "author_name": "David Brown",
+     "author_photo": "https://example.com/david-brown.jpg",
+     "author_email": "davidbrown@example.com",
+     "date": "2024-09-23",
+     "category":"popular",
+     "banner": "https://jannah.tielabs.com/demo/wp-content/uploads/sites/8/2016/10/demo-image-2.jpg",
+     "description": "Performance is a key concern when developing large React applications, and memoization is one technique to ensure your components don’t re-render unnecessarily. This article explains how React's built-in memo function and useMemo hook can be used to prevent performance bottlenecks by caching expensive calculations or avoiding re-renders of unchanged components. We also cover when and how to use memoization effectively, as improper use can lead to memory leaks or stale data. By the end, you'll understand how to optimize React applications without compromising functionality."
+   },
+   {
+     "title": "The Future of JavaScript: ES2024 Features",
+     "author_name": "Laura Evans",
+     "author_photo": "https://example.com/laura-evans.jpg",
+     "author_email": "lauraevans@example.com",
+     "date": "2024-09-22",
+     "category":"popular",
+     "banner": "https://jannah.tielabs.com/demo/wp-content/uploads/sites/8/2016/10/demo-image-1.jpg",
+     "description": "Every year, new JavaScript features are added to make the language more powerful and easier to use. In this article, we explore the upcoming features of ES2024, including pipeline operators, pattern matching, and better support for asynchronous programming. Each feature is explained with examples and practical use cases, demonstrating how these additions will improve code readability and maintainability. We also cover the TC39 process for proposing and approving new features, giving readers a glimpse into the future of JavaScript and how to stay ahead of the curve."
+   },
+   {
+     "title": "Secure Your Web Applications with JWT Authentication",
+     "author_name": "Daniel Harris",
+     "author_photo": "https://example.com/daniel-harris.jpg",
+     "author_email": "danielharris@example.com",
+     "date": "2024-09-21",
+     "category":"popular",
+     "banner": "https://jannah.tielabs.com/demo/wp-content/uploads/sites/8/2016/10/image1-min.jpg",
+     "description": "JSON Web Tokens (JWT) are a popular method for securing web applications, especially in single-page applications (SPAs). This article offers a detailed look at how JWT works, including the structure of a token, how it's generated, and how it can be securely used to authenticate users. We discuss the difference between stateless and stateful authentication, common security pitfalls, and best practices such as token expiration and refresh strategies. By the end of the article, you will have a strong understanding of how to implement JWT authentication in your applications securely."
+   }
+ ]
+ 

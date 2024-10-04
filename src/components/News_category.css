@@ -1,0 +1,5 @@
+.react-tabs__tab--selected{
+   color: orangered;
+   border-bottom: 2px solid orangered;
+   outline: none;
+}
